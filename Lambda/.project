@@ -42,16 +42,4 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>com.gwtplugins.gwt.eclipse.core.gwtNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>srcProofs</name>
-			<type>2</type>
-			<location>/Users/martin/Library/Mobile Documents/com~apple~CloudDocs/Programming/Deriver Programs/Deriver18/eclipseGitMaster/Proofs/Proofs/src</location>
-		</link>
-		<link>
-			<name>srcTrees</name>
-			<type>2</type>
-			<location>/Users/martin/Library/Mobile Documents/com~apple~CloudDocs/Programming/Deriver Programs/Deriver18/eclipseGitMaster/TreesJS/TreesJS/src</location>
-		</link>
-	</linkedResources>
 </projectDescription>

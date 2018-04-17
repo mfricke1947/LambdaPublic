@@ -601,9 +601,11 @@ public void doRewrite(){
 
 	    String originalFormulaStr=fParser.writeFormulaToString(selectedLine.fFormula);
 
-	    TRewriteRules rules= new TLambdaRewriteRules(selectedLine.fFormula,fParser);
+	    //mf 4/14/18	    TRewriteRules rules= new TLambdaRewriteRules(selectedLine.fFormula,fParser);
 
-	     boolean mustChange=true;
+	   TGWTRewriteRules rules= new TLambdaRewriteRules(selectedLine.fFormula,fParser);
+
+	    boolean mustChange=true;
 	     
 	     defaultButton = new Button("Go");
 	     defaultButton.addClickHandler(new RewriteHandler(

@@ -1,17 +1,22 @@
 package us.softoption.proofs;
 
-import us.softoption.infrastructure.TPreferencesData;
-import us.softoption.infrastructure.TUtilities;
-import us.softoption.parser.TFormula;
-import us.softoption.parser.TParser;
+import static us.softoption.infrastructure.Symbols.chBeta;
+import static us.softoption.infrastructure.Symbols.chBlank;
+import static us.softoption.infrastructure.Symbols.chImplic;
+import static us.softoption.infrastructure.Symbols.chLambda;
 
-import static us.softoption.infrastructure.Symbols.*;
 //import java.awt.Toolkit;
 import java.io.StringReader;
 import java.util.ArrayList;
 
+import us.softoption.infrastructure.TUtilities;
+import us.softoption.parser.TFormula;
+import us.softoption.parser.TParser;
 
-public class TLambdaRewriteRules extends TRewriteRules {
+
+//mf 4/14/18 public class TLambdaRewriteRules extends TRewriteRules {
+
+public class TLambdaRewriteRules extends TGWTRewriteRules {
 
 public TLambdaRewriteRules(TFormula selectedFormula,
                         TParser aParser){

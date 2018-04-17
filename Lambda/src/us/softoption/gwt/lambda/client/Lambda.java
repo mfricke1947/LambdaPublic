@@ -11,6 +11,8 @@ import us.softoption.infrastructure.GWTSymbolToolbar;
 import us.softoption.infrastructure.TConstants;
 import us.softoption.infrastructure.TPreferencesData;
 import us.softoption.infrastructure.TUtilities;
+
+
 import us.softoption.parser.TBergmannParser;
 import us.softoption.parser.TCopiParser;
 import us.softoption.parser.TDefaultParser;
@@ -20,19 +22,22 @@ import us.softoption.parser.TGirleParser;
 import us.softoption.parser.THausmanParser;
 import us.softoption.parser.THerrickParser;
 import us.softoption.parser.THowsonParser;
+
+
+
 import us.softoption.parser.TParser;
 import us.softoption.proofs.TLambda;
 import us.softoption.proofs.TProofDisplayCellTable;
-import us.softoption.tree.TGWTTreeInputPanel;
+// mf ?? import us.softoption.tree.TGWTTreeInputPanel;
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.i18n.client.Dictionary;
 import com.google.gwt.user.client.ui.Button;
-import com.google.gwt.user.client.ui.FlexTable;
+//import com.google.gwt.user.client.ui.FlexTable;
 import com.google.gwt.user.client.ui.HorizontalPanel;
-import com.google.gwt.user.client.ui.Label;
+//import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.MenuBar;
 import com.google.gwt.user.client.ui.RichTextArea;
 import com.google.gwt.user.client.ui.RichTextArea.Formatter;
