@@ -25,6 +25,9 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 
 
  Feb 06 Adding a fourth data panel, for Trees
+ 
+ The TGWTProofDocument is similar but it is cut down to work with GWT generating javascript (to end up as widgets
+ in web pages).
 
 
  */
